@@ -1,7 +1,9 @@
 
 
 def square_array(numbers)
+  exponent_number = []
   numbers.each do |number|
-    puts "#{number} squared is equal to #{number ** 2}"
+    exponent_number.push(number ** 2)
+    []
   end
 end
