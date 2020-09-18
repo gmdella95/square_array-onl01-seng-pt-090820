@@ -21,8 +21,8 @@ describe '#square_array' do
 end
 
 def square_array
-  numbers = [1, 2, 3]
+  numbers = [1,2,3]
   numbers.each do |number|
-    puts "#{number} squared is equal to #{number**}"
+    puts "#{number} squared is equal to #{number ** 2}"
   end
 end
