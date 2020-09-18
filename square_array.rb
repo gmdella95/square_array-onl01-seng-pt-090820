@@ -5,5 +5,5 @@ def square_array(numbers)
   numbers.each do |number|
     exponent_number.push(number ** 2)
   end
-return (exponent_number)
+(exponent_number)
 end
