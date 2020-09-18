@@ -20,3 +20,11 @@ describe '#square_array' do
   end
 
 end
+
+def square_array (numbers)
+  numbers = [1, 2, 3]
+  numbers.each do |number|
+    puts "#{number} squares is equal to #{number**}"
+  end
+end
+    
