@@ -19,10 +19,3 @@ describe '#square_array' do
     expect(square_array([9,10,16,25])).to eq([81,100,256,625])
   end
 end
-
-def square_array (numbers)
-  numbers = [1,2,3]
-  numbers.each do |number|
-    puts "#{number} squared is equal to #{number ** 2}"
-  end
-end
