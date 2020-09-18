@@ -27,4 +27,3 @@ def square_array (numbers)
     puts "#{number} squares is equal to #{number**}"
   end
 end
-    
