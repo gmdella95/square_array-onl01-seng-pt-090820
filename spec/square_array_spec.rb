@@ -20,7 +20,7 @@ describe '#square_array' do
   end
 end
 
-def square_array
+def square_array (numbers)
   numbers = [1,2,3]
   numbers.each do |number|
     puts "#{number} squared is equal to #{number ** 2}"
